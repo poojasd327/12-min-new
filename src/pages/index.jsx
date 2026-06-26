@@ -9,7 +9,7 @@ import SmartWaySection from '../components/SmartWaySection'
 import Footer from '../components/Footer'
 import LeadCaptureFormDialog from '../components/LeadCaptureFormDialog'
 
-import StickyStrip from '../components/StickyStrip'
+
 import Head from 'next/head'
 import SmoothScroll from '../components/SmoothScroll'
 
@@ -62,7 +62,7 @@ export default function Page() {
           onClose={() => setIsLeadFormOpen(false)}
           formType="popup"
         />
-        <StickyStrip onRegisterClick={handleRegisterClick} />
+
 
       </SmoothScroll>
     </>

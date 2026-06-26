@@ -111,30 +111,33 @@ function HeroSection({ onRegisterClick }) {
           <Box
             data-aos="fade-right"
             sx={{
-              display: 'inline-flex',
+              display: 'flex',
               alignItems: 'center',
-              alignSelf: { xs: 'flex-start', md: 'flex-start' }, // Changed back to flex-start for mobile
-              bgcolor: '#F2AE41',
-              color: '#000000',
-              px: { xs: 3, md: 5 },
-              py: { xs: 1, md: 1.2 },
+              gap: 1.5,
               mb: '20px',
-              clipPath: 'polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%)',
-              fontWeight: 700,
+              alignSelf: { xs: 'flex-start', md: 'flex-start' }
             }}
           >
+            <Box
+              component="img"
+              src={withBasePath('/assets/Join.svg')}
+              alt="Join"
+              sx={{
+                height: { xs: '32px', md: '24px' },
+                width: 'auto'
+              }}
+            />
             <Typography
               sx={{
-                fontSize: { xs: '16px', md: '18px' },
-                fontWeight: 'bold',
-                letterSpacing: '0.02em',
-                color: '#ffffff',
-                textTransform: 'none',
-                fontFamily: 'inherit',
-                lineHeight: 1,
+                fontSize: '16px',
+                fontFamily: '"Inter", sans-serif',
+                fontWeight: 400,
+                lineHeight: '1.3em',
+                letterSpacing: '0em',
+                color: '#ffffff'
               }}
             >
-              Free Webinar
+              1000+ Positive Student Reviews
             </Typography>
           </Box>
           <Typography
