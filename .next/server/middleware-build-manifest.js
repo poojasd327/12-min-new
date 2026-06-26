@@ -1,0 +1,48 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/": [
+      "static/chunks/[root-of-the-server]__14c0e1ff._.js",
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_aa9d047d._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_32a3ccbb._.js",
+      "static/chunks/node_modules_next_dist_client_9b1b49db._.js",
+      "static/chunks/node_modules_next_dist_0d80a400._.js",
+      "static/chunks/node_modules_next_64e24b8a._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_@mui_system_esm_4581dfde._.js",
+      "static/chunks/node_modules_@mui_material_609f4d75._.js",
+      "static/chunks/node_modules_motion-dom_dist_es_3893f2ca._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_c5da70f3._.js",
+      "static/chunks/node_modules_484c9b85._.js",
+      "static/chunks/src_pages_index_2da965e7._.js",
+      "static/chunks/turbopack-src_pages_index_1517975b._.js"
+    ],
+    "/_app": [
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_5277ebc8.js",
+      "static/chunks/node_modules_next_dist_compiled_166120c5._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_b4122b32._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+      "static/chunks/node_modules_next_dist_0d80a400._.js",
+      "static/chunks/node_modules_next_head_6b89d279.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_@mui_system_esm_7f1bce82._.js",
+      "static/chunks/node_modules_@mui_material_cf751e41._.js",
+      "static/chunks/node_modules_798aa124._.js",
+      "static/chunks/[root-of-the-server]__54cebc7e._.js",
+      "static/chunks/_f62145a4._.css",
+      "static/chunks/src_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-src_pages__app_0dcd397a._.js"
+    ]
+  },
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "ampFirstPages": []
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+,"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js",
+
+];

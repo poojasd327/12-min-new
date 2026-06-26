@@ -1,0 +1,36 @@
+.hero-section {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #0f0f0f;
+  padding: 0;
+}
+
+.hero-image {
+  width: min(100vw, 1380px);
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .hero-image {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-section {
+    min-height: auto;
+  }
+
+  .hero-image {
+    width: 100vw;
+    height: auto;
+    min-height: 65vh;
+    object-fit: cover;
+  }
+}
