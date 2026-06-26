@@ -22,7 +22,7 @@ const HERO_LOGO_URL = "https://framerusercontent.com/images/9Z2jFD0J7AbXuNFrXM2G
 const pageGutterSx = {
     width: "100%",
     maxWidth: "100%",
-    px: { xs: "20px", sm: "40px", md: "60px", lg: "95px" },
+    px: { xs: "20px", sm: "30px", md: "50px" },
     boxSizing: "border-box",
 };
 
@@ -301,6 +301,7 @@ export default function Header({ navItems, onNavClick, onOpenLeadForm }) {
                                     </Button>
                                 ))}
                             </Stack>
+                            <HeroOrangeCta onClick={onOpenLeadForm} sx={{ bgcolor: "#000000", "&:hover": { bgcolor: "#333333" } }}>Contact Us</HeroOrangeCta>
                         </Stack>
                     )}
                 </Stack>

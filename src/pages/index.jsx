@@ -30,9 +30,10 @@ export default function Page() {
 
   const navItems = [
     { label: 'Home', target: 'hero-section' },
-
-
-
+    { label: 'Test Details', target: 'test-details' },
+    { label: 'Batch Details', target: 'batch-details' },
+    { label: 'Scholarship Criteria', target: 'scholarship-criteria' },
+    { label: 'Success Stories', target: 'testimonials' },
   ];
 
   const handleNavClick = (target) => {
@@ -49,11 +50,11 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>7-Month CLAT 2027 Prep Plan | Free Webinar</title>
+        <title>CLAT PG 2027 All India Mock Test | Register Now</title>
         <meta name="description" content="Learn CLAT prep from NLU grads. Join our free 7-month strategy session." />
       </Head>
       <SmoothScroll>
-        <Header navItems={navItems} onNavClick={handleNavClick} />
+        <Header navItems={navItems} onNavClick={handleNavClick} onOpenLeadForm={handleRegisterClick} />
         <HeroSection onRegisterClick={handleRegisterClick} />
         <InfoSection />
         <WhyTakeMockTestSection />

@@ -596,8 +596,20 @@ const RegisterButton = ({ id, onClick, text = "Register Now at ₹99/- Only", sx
 };
 const __TURBOPACK__default__export__ = RegisterButton;
 }),
+"[externals]/framer-motion [external] (framer-motion, esm_import)", ((__turbopack_context__) => {
+"use strict";
+
+return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
+
+const mod = await __turbopack_context__.y("framer-motion");
+
+__turbopack_context__.n(mod);
+__turbopack_async_result__();
+} catch(e) { __turbopack_async_result__(e); } }, true);}),
 "[project]/src/components/hero/HeroSection.jsx [ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
+
+return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
 
 __turbopack_context__.s([
     "default",
@@ -615,6 +627,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$ico
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$basePath$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/basePath.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$RegisterButton$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/RegisterButton.jsx [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/framer-motion [external] (framer-motion, esm_import)");
+var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
+    __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__
+]);
+[__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
+;
 ;
 ;
 ;
@@ -703,12 +721,12 @@ function HeroSection({ onRegisterClick }) {
                     }
                 }, isMobile ? 'mobile' : 'desktop', false, {
                     fileName: "[project]/src/components/hero/HeroSection.jsx",
-                    lineNumber: 70,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/hero/HeroSection.jsx",
-                lineNumber: 63,
+                lineNumber: 64,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Container$2f$Container$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
@@ -730,7 +748,21 @@ function HeroSection({ onRegisterClick }) {
                     pointerEvents: 'none'
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                    "data-aos": "fade-up",
+                    component: __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__["motion"].div,
+                    initial: {
+                        opacity: 0,
+                        x: -20
+                    },
+                    whileInView: {
+                        opacity: 1,
+                        x: 0
+                    },
+                    viewport: {
+                        once: true
+                    },
+                    transition: {
+                        duration: 0.6
+                    },
                     sx: {
                         maxWidth: '800px',
                         pointerEvents: 'auto',
@@ -775,7 +807,7 @@ function HeroSection({ onRegisterClick }) {
                                     children: "CLAT PG"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                    lineNumber: 124,
+                                    lineNumber: 129,
                                     columnNumber: 23
                                 }, this),
                                 " ",
@@ -783,7 +815,7 @@ function HeroSection({ onRegisterClick }) {
                                     component: "br"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                    lineNumber: 124,
+                                    lineNumber: 129,
                                     columnNumber: 85
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -794,14 +826,14 @@ function HeroSection({ onRegisterClick }) {
                                     children: "2027"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                    lineNumber: 125,
+                                    lineNumber: 130,
                                     columnNumber: 13
                                 }, this),
                                 " Mock Test"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/hero/HeroSection.jsx",
-                            lineNumber: 112,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -860,7 +892,7 @@ function HeroSection({ onRegisterClick }) {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                            lineNumber: 144,
+                                            lineNumber: 149,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -878,13 +910,13 @@ function HeroSection({ onRegisterClick }) {
                                             children: "05 - July - 2025"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                            lineNumber: 150,
+                                            lineNumber: 155,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                    lineNumber: 143,
+                                    lineNumber: 148,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -913,7 +945,7 @@ function HeroSection({ onRegisterClick }) {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 169,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -931,19 +963,19 @@ function HeroSection({ onRegisterClick }) {
                                             children: "2:00 PM - 4:00 PM"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                            lineNumber: 170,
+                                            lineNumber: 175,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                    lineNumber: 163,
+                                    lineNumber: 168,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/hero/HeroSection.jsx",
-                            lineNumber: 128,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -966,7 +998,7 @@ function HeroSection({ onRegisterClick }) {
                             children: "Win Up to a 100% Scholarship"
                         }, void 0, false, {
                             fileName: "[project]/src/components/hero/HeroSection.jsx",
-                            lineNumber: 184,
+                            lineNumber: 189,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Stack$2f$Stack$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Stack$3e$__["Stack"], {
@@ -997,7 +1029,7 @@ function HeroSection({ onRegisterClick }) {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                    lineNumber: 208,
+                                    lineNumber: 213,
                                     columnNumber: 24
                                 }, void 0),
                                 sx: {
@@ -1029,36 +1061,39 @@ function HeroSection({ onRegisterClick }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/src/components/hero/HeroSection.jsx",
-                                lineNumber: 204,
+                                lineNumber: 209,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/hero/HeroSection.jsx",
-                            lineNumber: 199,
+                            lineNumber: 204,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/hero/HeroSection.jsx",
-                    lineNumber: 99,
+                    lineNumber: 100,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/hero/HeroSection.jsx",
-                lineNumber: 86,
+                lineNumber: 87,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/hero/HeroSection.jsx",
-        lineNumber: 49,
+        lineNumber: 50,
         columnNumber: 5
     }, this);
 }
 const __TURBOPACK__default__export__ = HeroSection;
-}),
+__turbopack_async_result__();
+} catch(e) { __turbopack_async_result__(e); } }, false);}),
 "[project]/src/components/InfoSection.jsx [ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
+
+return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
 
 __turbopack_context__.s([
     "default",
@@ -1071,6 +1106,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$mat
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$IconButton$2f$IconButton$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/IconButton/IconButton.js [ssr] (ecmascript) <export default as IconButton>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ArrowBackIosNew$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/ArrowBackIosNew.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ArrowForwardIos$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/ArrowForwardIos.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/framer-motion [external] (framer-motion, esm_import)");
+var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
+    __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__
+]);
+[__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
+;
 ;
 ;
 ;
@@ -1095,7 +1136,22 @@ function InfoSection() {
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-        component: "section",
+        id: "test-details",
+        component: __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__["motion"].div,
+        initial: {
+            opacity: 0,
+            x: -20
+        },
+        whileInView: {
+            opacity: 1,
+            x: 0
+        },
+        viewport: {
+            once: true
+        },
+        transition: {
+            duration: 0.6
+        },
         sx: {
             pt: {
                 xs: '50px',
@@ -1170,7 +1226,7 @@ function InfoSection() {
                             children: "Test Details"
                         }, void 0, false, {
                             fileName: "[project]/src/components/InfoSection.jsx",
-                            lineNumber: 55,
+                            lineNumber: 61,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1188,20 +1244,20 @@ function InfoSection() {
                                 "Everything you need to know about the test ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/components/InfoSection.jsx",
-                                    lineNumber: 81,
+                                    lineNumber: 87,
                                     columnNumber: 56
                                 }, this),
                                 "before you register"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/InfoSection.jsx",
-                            lineNumber: 69,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/InfoSection.jsx",
-                    lineNumber: 44,
+                    lineNumber: 50,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1308,8 +1364,30 @@ function InfoSection() {
                                     svg: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#db5568" viewBox="0 0 256 256"><path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path></svg>'
                                 }
                             ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    component: __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__["motion"].div,
+                                    initial: {
+                                        opacity: 0,
+                                        y: 30
+                                    },
+                                    whileInView: {
+                                        opacity: 1,
+                                        y: 0
+                                    },
+                                    viewport: {
+                                        once: true
+                                    },
+                                    transition: {
+                                        duration: 0.5,
+                                        delay: index * 0.15
+                                    },
+                                    whileHover: {
+                                        y: -8,
+                                        boxShadow: '0 12px 24px rgba(0,0,0,0.08)',
+                                        transition: {
+                                            duration: 0.2
+                                        }
+                                    },
                                     sx: {
-                                        scrollSnapAlign: 'start',
                                         flexShrink: 0,
                                         width: item.width,
                                         height: '188px',
@@ -1340,7 +1418,7 @@ function InfoSection() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/InfoSection.jsx",
-                                            lineNumber: 153,
+                                            lineNumber: 170,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1361,7 +1439,7 @@ function InfoSection() {
                                                     children: item.para
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/InfoSection.jsx",
-                                                    lineNumber: 155,
+                                                    lineNumber: 172,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1376,24 +1454,24 @@ function InfoSection() {
                                                     children: item.heading
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/InfoSection.jsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 175,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/InfoSection.jsx",
-                                            lineNumber: 154,
+                                            lineNumber: 171,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/src/components/InfoSection.jsx",
-                                    lineNumber: 142,
+                                    lineNumber: 148,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/InfoSection.jsx",
-                            lineNumber: 97,
+                            lineNumber: 103,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1420,12 +1498,12 @@ function InfoSection() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/InfoSection.jsx",
-                                        lineNumber: 168,
+                                        lineNumber: 185,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/InfoSection.jsx",
-                                    lineNumber: 167,
+                                    lineNumber: 184,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$IconButton$2f$IconButton$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
@@ -1441,41 +1519,44 @@ function InfoSection() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/InfoSection.jsx",
-                                        lineNumber: 171,
+                                        lineNumber: 188,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/InfoSection.jsx",
-                                    lineNumber: 170,
+                                    lineNumber: 187,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/InfoSection.jsx",
-                            lineNumber: 166,
+                            lineNumber: 183,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/InfoSection.jsx",
-                    lineNumber: 87,
+                    lineNumber: 93,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/InfoSection.jsx",
-            lineNumber: 32,
+            lineNumber: 38,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/InfoSection.jsx",
-        lineNumber: 21,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }
-}),
+__turbopack_async_result__();
+} catch(e) { __turbopack_async_result__(e); } }, false);}),
 "[project]/src/components/WhyTakeMockTestSection.jsx [ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
+
+return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
 
 __turbopack_context__.s([
     "default",
@@ -1485,12 +1566,32 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$run
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/Box/Box.js [ssr] (ecmascript) <export default as Box>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/Typography/Typography.js [ssr] (ecmascript) <export default as Typography>");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/framer-motion [external] (framer-motion, esm_import)");
+var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
+    __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__
+]);
+[__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
+;
 ;
 ;
 ;
 function WhyTakeMockTestSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-        component: "section",
+        component: __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__["motion"].div,
+        initial: {
+            opacity: 0,
+            x: -20
+        },
+        whileInView: {
+            opacity: 1,
+            x: 0
+        },
+        viewport: {
+            once: true
+        },
+        transition: {
+            duration: 0.6
+        },
         sx: {
             pt: '31px',
             pr: {
@@ -1525,7 +1626,7 @@ function WhyTakeMockTestSection() {
                 children: "Why Take This Mock Test?"
             }, void 0, false, {
                 fileName: "[project]/src/components/WhyTakeMockTestSection.jsx",
-                lineNumber: 18,
+                lineNumber: 23,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1567,6 +1668,29 @@ function WhyTakeMockTestSection() {
                         para: 'Earn up to 100% Scholarship for the Champion 2027 batch'
                     }
                 ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                        component: __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__["motion"].div,
+                        initial: {
+                            opacity: 0,
+                            y: 30
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        transition: {
+                            duration: 0.5,
+                            delay: index * 0.15
+                        },
+                        whileHover: {
+                            scale: 1.01,
+                            boxShadow: '0 12px 24px rgba(0,0,0,0.08)',
+                            transition: {
+                                duration: 0.2
+                            }
+                        },
                         sx: {
                             width: '100%',
                             height: {
@@ -1624,7 +1748,7 @@ function WhyTakeMockTestSection() {
                                 children: String(index + 1).padStart(2, '0')
                             }, void 0, false, {
                                 fileName: "[project]/src/components/WhyTakeMockTestSection.jsx",
-                                lineNumber: 79,
+                                lineNumber: 94,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1657,7 +1781,7 @@ function WhyTakeMockTestSection() {
                                         children: item.heading
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/WhyTakeMockTestSection.jsx",
-                                        lineNumber: 98,
+                                        lineNumber: 113,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1674,36 +1798,39 @@ function WhyTakeMockTestSection() {
                                         children: item.para
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/WhyTakeMockTestSection.jsx",
-                                        lineNumber: 112,
+                                        lineNumber: 127,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/WhyTakeMockTestSection.jsx",
-                                lineNumber: 97,
+                                lineNumber: 112,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/src/components/WhyTakeMockTestSection.jsx",
-                        lineNumber: 57,
+                        lineNumber: 62,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/WhyTakeMockTestSection.jsx",
-                lineNumber: 34,
+                lineNumber: 39,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/WhyTakeMockTestSection.jsx",
-        lineNumber: 6,
+        lineNumber: 7,
         columnNumber: 5
     }, this);
 }
-}),
+__turbopack_async_result__();
+} catch(e) { __turbopack_async_result__(e); } }, false);}),
 "[project]/src/components/HighlightsSection.jsx [ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
+
+return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
 
 __turbopack_context__.s([
     "default",
@@ -1714,12 +1841,19 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/Box/Box.js [ssr] (ecmascript) <export default as Box>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/Typography/Typography.js [ssr] (ecmascript) <export default as Typography>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$basePath$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/basePath.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/framer-motion [external] (framer-motion, esm_import)");
+var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
+    __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__
+]);
+[__TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
+;
 ;
 ;
 ;
 ;
 function HighlightsSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+        id: "batch-details",
         component: "section",
         sx: {
             pt: {
@@ -1759,7 +1893,7 @@ function HighlightsSection() {
                 children: "Champion 2027 Batch Highlights"
             }, void 0, false, {
                 fileName: "[project]/src/components/HighlightsSection.jsx",
-                lineNumber: 17,
+                lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1804,6 +1938,29 @@ function HighlightsSection() {
                         icon: '6.svg'
                     }
                 ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                        component: __TURBOPACK__imported__module__$5b$externals$5d2f$framer$2d$motion__$5b$external$5d$__$28$framer$2d$motion$2c$__esm_import$29$__["motion"].div,
+                        initial: {
+                            opacity: 0,
+                            y: 30
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        transition: {
+                            duration: 0.5,
+                            delay: index * 0.15
+                        },
+                        whileHover: {
+                            y: -8,
+                            boxShadow: '0 12px 24px rgba(0,0,0,0.08)',
+                            transition: {
+                                duration: 0.2
+                            }
+                        },
                         sx: {
                             width: {
                                 xs: '100%',
@@ -1840,12 +1997,12 @@ function HighlightsSection() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/HighlightsSection.jsx",
-                                    lineNumber: 93,
+                                    lineNumber: 105,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/HighlightsSection.jsx",
-                                lineNumber: 92,
+                                lineNumber: 104,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -1869,7 +2026,7 @@ function HighlightsSection() {
                                         children: item.heading
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HighlightsSection.jsx",
-                                        lineNumber: 98,
+                                        lineNumber: 110,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -1886,44 +2043,35 @@ function HighlightsSection() {
                                         children: item.para
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/HighlightsSection.jsx",
-                                        lineNumber: 112,
+                                        lineNumber: 124,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/HighlightsSection.jsx",
-                                lineNumber: 97,
+                                lineNumber: 109,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/src/components/HighlightsSection.jsx",
-                        lineNumber: 76,
+                        lineNumber: 78,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/HighlightsSection.jsx",
-                lineNumber: 33,
+                lineNumber: 35,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/HighlightsSection.jsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
-}),
-"[externals]/framer-motion [external] (framer-motion, esm_import)", ((__turbopack_context__) => {
-"use strict";
-
-return __turbopack_context__.a(async (__turbopack_handle_async_dependencies__, __turbopack_async_result__) => { try {
-
-const mod = await __turbopack_context__.y("framer-motion");
-
-__turbopack_context__.n(mod);
 __turbopack_async_result__();
-} catch(e) { __turbopack_async_result__(e); } }, true);}),
+} catch(e) { __turbopack_async_result__(e); } }, false);}),
 "[project]/src/components/SmartWaySection.jsx [ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -1955,6 +2103,7 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 const SMART_WAY_IMAGE = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$basePath$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["withBasePath"])("/assets/girl.avif");
 function SmartWaySection({ onRegisterClick }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+        id: "scholarship-criteria",
         sx: {
             py: {
                 xs: 8,
@@ -4055,11 +4204,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LeadCap
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmoothScroll$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/SmoothScroll.jsx [ssr] (ecmascript)");
 var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
+    __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$hero$2f$HeroSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__,
+    __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$InfoSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__,
+    __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$WhyTakeMockTestSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__,
+    __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HighlightsSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__,
     __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmartWaySection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__,
     __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialsSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__,
     __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmoothScroll$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__
 ]);
-[__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmartWaySection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialsSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmoothScroll$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
+[__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$hero$2f$HeroSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$InfoSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$WhyTakeMockTestSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HighlightsSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmartWaySection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialsSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmoothScroll$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
 ;
 ;
 ;
@@ -4087,16 +4240,20 @@ function Page() {
             target: 'hero-section'
         },
         {
-            label: 'Results',
-            target: 'results'
+            label: 'Test Details',
+            target: 'test-details'
         },
         {
-            label: 'Faculty',
-            target: 'about-2'
+            label: 'Batch Details',
+            target: 'batch-details'
         },
         {
-            label: 'Why Us',
-            target: 'why-us'
+            label: 'Scholarship Criteria',
+            target: 'scholarship-criteria'
+        },
+        {
+            label: 'Success Stories',
+            target: 'testimonials'
         }
     ];
     const handleNavClick = (target)=>{
@@ -4116,10 +4273,10 @@ function Page() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("title", {
-                        children: "7-Month CLAT 2027 Prep Plan | Free Webinar"
+                        children: "CLAT PG 2027 All India Mock Test | Register Now"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 52,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -4127,13 +4284,13 @@ function Page() {
                         content: "Learn CLAT prep from NLU grads. Join our free 7-month strategy session."
                     }, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 53,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/index.jsx",
-                lineNumber: 51,
+                lineNumber: 52,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmoothScroll$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4144,46 +4301,46 @@ function Page() {
                         onOpenLeadForm: handleRegisterClick
                     }, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 56,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$hero$2f$HeroSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         onRegisterClick: handleRegisterClick
                     }, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 57,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$InfoSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 58,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$WhyTakeMockTestSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 59,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HighlightsSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 60,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SmartWaySection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         onRegisterClick: handleRegisterClick
                     }, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 64,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialsSection$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 65,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 66,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LeadCaptureFormDialog$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4192,13 +4349,13 @@ function Page() {
                         formType: "popup"
                     }, void 0, false, {
                         fileName: "[project]/src/pages/index.jsx",
-                        lineNumber: 67,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/index.jsx",
-                lineNumber: 55,
+                lineNumber: 56,
                 columnNumber: 7
             }, this)
         ]
@@ -4214,4 +4371,4 @@ module.exports = mod;
 }),
 ];
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__25c5ec8f._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__5730beba._.js.map

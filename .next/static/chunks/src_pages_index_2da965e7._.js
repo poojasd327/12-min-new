@@ -13,7 +13,7 @@
   "static/chunks/node_modules_@mui_material_609f4d75._.js",
   "static/chunks/node_modules_motion-dom_dist_es_3893f2ca._.js",
   "static/chunks/node_modules_framer-motion_dist_es_c5da70f3._.js",
-  "static/chunks/node_modules_37d6a0f8._.js"
+  "static/chunks/node_modules_7dedffed._.js"
 ],
     source: "entry"
 });

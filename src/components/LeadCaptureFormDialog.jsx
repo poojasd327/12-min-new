@@ -59,6 +59,7 @@ export default function LeadCaptureFormDialog({ open, onClose, formType }) {
             "phone-number": phone,
             "current-class-": studentClass,
             "email-address": email,
+            "source": "CLAT PG"
           }),
         });
 
@@ -318,11 +319,11 @@ export default function LeadCaptureFormDialog({ open, onClose, formType }) {
               }}
             >
               <InputLabel sx={{ fontFamily: "inherit" }}>
-                Current Class
+                Current Academic Year
               </InputLabel>
               <Select
                 value={studentClass}
-                label="Current Class"
+                label="Current Academic Year"
                 onChange={(e) => setStudentClass(e.target.value)}
                 MenuProps={{
                   disableScrollLock: true,
@@ -345,8 +346,9 @@ export default function LeadCaptureFormDialog({ open, onClose, formType }) {
                   },
                 }}
               >
-                <MenuItem value="Class 12">Class 12</MenuItem>
-                <MenuItem value="Dropper">Dropper</MenuItem>
+                <MenuItem value="Final Year Law Student">Final Year Law Student</MenuItem>
+                <MenuItem value="Law Graduate">Law Graduate</MenuItem>
+                <MenuItem value="Working Professional">Working Professional</MenuItem>
               </Select>
             </FormControl>
 

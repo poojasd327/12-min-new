@@ -38,27 +38,11 @@ const testimonialCtaButtonSx = {
 const testimonialsData = [
     {
         id: 1,
-        heading: '"I can’t thank 12 Minutes to CLAT enough!"',
-        description: "I’m incredibly grateful to Keshav Malpani sir and the 12 Minutes to CLAT team for helping me achieve AIR 16 and a seat at NLSIU. The live classes provided immense conceptual clarity, while the GK sessions were remarkably comprehensive yet concise. The offline mocks and detailed answer keys were instrumental in helping me identify and rectify my weaknesses effectively. Can’t thank the team enough for the guidance and support that made my law school dream a reality!",
-        image: withBasePath("/assets/astha_photo_page-0001.webp"),
-        name: "Astha Nayak",
-        title: "AIR 16 - NLSIU (CLAT 2024)"
-    },
-    {
-        id: 2,
-        heading: '"Choosing 12mtc is one decision I do not regret at all."',
-        description: "I am Nathan Prabu, and I've secured AIR 5 in CLAT 2026. I've had a wonderful experience at 12mtc, from the brilliant mentors to regular mock tests... This platform has helped me stay motivated and optimistic in my CLAT preparation, and I owe a huge deal to Keshav sir for making current affairs interesting. Choosing 12mtc for my CLAT prep is one decision I do not regret at all. Thank you 12 Minutes to CLAT!",
-        image: withBasePath("/assets/5 AIR CLAT 2026 - Nathan Prabu.webp"),
-        name: "Nathan Prabu",
-        title: "AIR 5 - CLAT 2026"
-    },
-    {
-        id: 3,
-        heading: '"The faculty helped me get AIR 139."',
-        description: "I was a dropper and was unsure about my prep from the big coaching centers. I joined 12mtc's first Aarambh batch and the faculty helped me get AIR 119. I'm really grateful to Keshav sir and all the other faculty for helping me get my dream college. Love you 12mtc ❤️",
-        image: withBasePath("/assets/139 AIR KRISHIV .jpg"),
-        name: "Krishiv Anand",
-        title: "AIR 139 - CLAT 2024"
+        heading: "",
+        description: "12 Minutes to CLAT’s PG course was my one-stop solution to a top rank and my PSU job. I’m eternally grateful.",
+        image: withBasePath("/assets/person.jpeg"),
+        name: "Himanshu Rajpurohit",
+        title: "AIR 10, CLAT PG 2025"
     }
 ]
 
@@ -77,7 +61,7 @@ const ChevronLeft = () => (
 export default function TestimonialsSection() {
     const [currentIndex, setCurrentIndex] = useState(0)
     const [isAutoPlaying, setIsAutoPlaying] = useState(true)
-    const currentTestimonial = testimonialsData[currentIndex]
+    const currentTestimonial = testimonialsData[currentIndex] || testimonialsData[0]
 
     const handleNext = React.useCallback(() => {
         setCurrentIndex((prev) => (prev + 1) % testimonialsData.length)
@@ -136,7 +120,8 @@ export default function TestimonialsSection() {
                         data-aos="fade-up"
                         sx={{
                             pt: { md: 4 },
-                            ml: { xs: "37px", md: 0 },
+                            ml: { xs: 0, md: 0 },
+                            px: { xs: 2, md: 0 },
                             display: "flex",
                             flexDirection: "column",
                             alignItems: { xs: "flex-start", md: "flex-start" },
@@ -146,7 +131,7 @@ export default function TestimonialsSection() {
                         <Typography
                             variant="h2"
                             sx={{
-                                fontSize: { xs: "2.5rem", md: "60px" },
+                                fontSize: { xs: "32px", md: "60px" },
                                 fontWeight: 500,
                                 letterSpacing: "-0.02em",
                                 color: "#000",
@@ -323,8 +308,8 @@ export default function TestimonialsSection() {
 
                                         <Typography
                                             sx={{
-                                                fontSize: { xs: "16px", md: "16px" },
-                                                color: "rgba(255, 255, 255, 0.7)",
+                                                fontSize: { xs: "24px", md: "24px" },
+                                                color: "#ffffff",
                                                 lineHeight: 1.6,
                                                 whiteSpace: "pre-line",
                                                 fontFamily: 'var(--font-geist-sans), "Geist", sans-serif',

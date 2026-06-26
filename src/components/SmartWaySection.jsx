@@ -9,7 +9,7 @@ const SMART_WAY_IMAGE = withBasePath("/assets/girl.avif")
 
 export default function SmartWaySection({ onRegisterClick }) {
     return (
-        <Box sx={{ py: { xs: 8, md: 12 }, bgcolor: "#fff", display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <Box id="scholarship-criteria" sx={{ py: { xs: 8, md: 12 }, bgcolor: "#fff", display: "flex", flexDirection: "column", alignItems: "center" }}>
 
             <Box
                 data-aos="fade-up"
@@ -62,26 +62,15 @@ export default function SmartWaySection({ onRegisterClick }) {
                                         fontWeight: 400,
                                         fontSize: { xs: "18px", md: "27px" },
                                         letterSpacing: "-0.02em",
-                                        lineHeight: 1.2,
+                                        lineHeight: 1.3,
                                         color: "#212121",
                                         maxWidth: "100%",
                                     }}
                                 >
-                                    The first 5 eligible students will receive a 100%
-                                </Typography>
-                                <Typography
-                                    sx={{
-                                        m: 0,
-                                        fontFamily: 'var(--font-geist-sans), "Geist", ui-sans-serif, system-ui, sans-serif',
-                                        fontWeight: 400,
-                                        fontSize: { xs: "18px", md: "27px" },
-                                        letterSpacing: "-0.02em",
-                                        lineHeight: 1.2,
-                                        color: "#212121",
-                                        maxWidth: "100%",
-                                    }}
-                                >
-                                    Scholarship for the Champion 2027 Batch
+                                    The first 5 eligible students <Box component="br" sx={{ display: { xs: 'block', md: 'none' } }} />
+                                    will receive a 100% <Box component="br" sx={{ display: { xs: 'block', md: 'block' } }} />
+                                    Scholarship for the <Box component="br" sx={{ display: { xs: 'block', md: 'none' } }} />
+                                    Champion 2027 Batch
                                 </Typography>
                             </Box>
 
