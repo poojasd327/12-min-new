@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import Header from '../components/header'
 import HeroSection from '../components/hero/HeroSection'
+import InfoSection from '../components/InfoSection'
+import WhyTakeMockTestSection from '../components/WhyTakeMockTestSection'
+import HighlightsSection from '../components/HighlightsSection'
 
 
 
 import SmartWaySection from '../components/SmartWaySection'
+import TestimonialsSection from '../components/TestimonialsSection'
 
 import Footer from '../components/Footer'
 import LeadCaptureFormDialog from '../components/LeadCaptureFormDialog'
@@ -51,11 +55,14 @@ export default function Page() {
       <SmoothScroll>
         <Header navItems={navItems} onNavClick={handleNavClick} />
         <HeroSection onRegisterClick={handleRegisterClick} />
+        <InfoSection />
+        <WhyTakeMockTestSection />
+        <HighlightsSection />
 
 
 
         <SmartWaySection onRegisterClick={handleRegisterClick} />
-
+        <TestimonialsSection />
         <Footer />
         <LeadCaptureFormDialog
           open={isLeadFormOpen}

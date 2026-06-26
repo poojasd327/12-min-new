@@ -5,7 +5,7 @@ import { withBasePath } from '../../basePath'
 import { useState, useEffect } from 'react'
 import RegisterButton from '../RegisterButton'
 
-const HERO_IMAGE_URL = '/assets/hero section-1.webp'
+const HERO_IMAGE_URL = '/assets/hero_image.webp'
 const MOBILE_HERO_IMAGE_URL = '/assets/mobile-hero.jpeg'
 
 function HeroSection({ onRegisterClick }) {
@@ -108,54 +108,72 @@ function HeroSection({ onRegisterClick }) {
             transform: { xs: 'translateY(-120px)', md: 'none' }
           }}
         >
-          <Box
-            data-aos="fade-right"
-            sx={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 1.5,
-              mb: '20px',
-              alignSelf: { xs: 'flex-start', md: 'flex-start' }
-            }}
-          >
-            <Box
-              component="img"
-              src={withBasePath('/assets/Join.svg')}
-              alt="Join"
-              sx={{
-                height: { xs: '32px', md: '24px' },
-                width: 'auto'
-              }}
-            />
-            <Typography
-              sx={{
-                fontSize: '16px',
-                fontFamily: '"Inter", sans-serif',
-                fontWeight: 400,
-                lineHeight: '1.3em',
-                letterSpacing: '0em',
-                color: '#ffffff'
-              }}
-            >
-              1000+ Positive Student Reviews
-            </Typography>
-          </Box>
+
           <Typography
             variant="h1"
             sx={{
               fontSize: { xs: '28px', sm: '48px', md: '72px' },
               fontWeight: 500,
               lineHeight: '1.2em',
-              color: '#ffffff',
+              color: '#000000',
               mb: 2,
               textTransform: 'none',
               fontFamily: 'inherit'
             }}
           >
-            ALL INDIA <Box component="span" sx={{ color: '#F2AE41' }}>CLAT PG</Box> <Box component="br" />
-            <Box component="span" sx={{ color: '#F2AE41' }}>2027</Box> MOCK TEST
+            All India <Box component="span" sx={{ color: '#ffffff' }}>CLAT PG</Box> <Box component="br" />
+            <Box component="span" sx={{ color: '#ffffff' }}>2027</Box> Mock Test
           </Typography>
 
+          <Box
+            sx={{
+              width: { xs: '100%', md: '450px' },
+              height: '52px',
+              bgcolor: '#FFF2DE',
+              padding: '10px 20px',
+              mb: 2,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: { xs: 'flex-start', md: 'flex-start' },
+              borderRadius: '15px',
+              gap: '13px'
+            }}
+          >
+            <Box
+              component="img"
+              src={withBasePath('/assets/Group.svg')}
+              alt="Date Icon"
+              sx={{ width: '29px', height: '29px' }}
+            />
+            <Typography
+              sx={{
+                fontSize: '20px',
+                fontFamily: 'var(--font-geist-sans), "Geist", sans-serif',
+                fontWeight: 400,
+                color: '#000000',
+                lineHeight: 1
+              }}
+            >
+              05 - July - 2025
+            </Typography>
+            <Box
+              component="img"
+              src={withBasePath('/assets/1111.svg')}
+              alt="Time Icon"
+              sx={{ width: '29px', height: '29px' }}
+            />
+            <Typography
+              sx={{
+                fontSize: '20px',
+                fontFamily: 'var(--font-geist-sans), "Geist", sans-serif',
+                fontWeight: 400,
+                color: '#000000',
+                lineHeight: 1
+              }}
+            >
+              2:00 PM - 4:00 PM
+            </Typography>
+          </Box>
           <Typography
             variant="body1"
             sx={{
@@ -163,11 +181,9 @@ function HeroSection({ onRegisterClick }) {
               fontWeight: 'regular',
               letterSpacing: '-0.02em',
               lineHeight: '1.6em',
-              color: '#F8F9FB',
+              color: '#000000',
               mb: { xs: '15px', md: 4 },
-              maxWidth: '500px',
               fontFamily: '"Inter Display", sans-serif',
-              mx: { xs: 0, md: 0 }
             }}
           >
             Win Up to a 100% Scholarship
@@ -189,10 +205,13 @@ function HeroSection({ onRegisterClick }) {
                 borderRadius: '999px',
                 fontSize: { xs: '13px', md: '15px' },
                 textTransform: 'none',
+                background: '#000000',
+                color: '#ffffff',
                 '&::after': {
                   display: 'none',
                 },
                 '&:hover': {
+                  background: '#000000',
                   '& .MuiButton-endIcon .MuiSvgIcon-root': {
                     transform: 'rotate(45deg)',
                   },
