@@ -208,21 +208,7 @@ export default function LeadCaptureFormDialog({ open, onClose, formType }) {
               }}
             >
               Enroll Now for CLAT PG 2027 Mock Test
-              <Typography
-                component="span"
-                display="block"
-                sx={{
-                  mt: 1,
-                  fontFamily: "inherit",
-                  fontWeight: 500,
-                  fontSize: 14,
-                  lineHeight: 1.5,
-                  color: "#0A0915",
-                  whiteSpace: "normal",
-                }}
-              >
-                Learn the exact 7-month strategy to crack CLAT 2027
-              </Typography>
+
               <IconButton
                 onClick={onClose}
                 aria-label="Close form"
