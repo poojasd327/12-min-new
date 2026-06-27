@@ -194,12 +194,12 @@ export default function LeadCaptureFormDialog({ open, onClose, formType }) {
               id="lead-form-title"
               sx={{
                 position: "relative",
-                pr: { xs: 5, sm: 0 },
+                px: 0,
                 pt: 3.5,
                 pb: 1.5,
                 fontFamily: "inherit",
                 fontWeight: 700,
-                fontSize: { xs: 22, sm: 28 },
+                fontSize: "20px",
                 lineHeight: 1.3,
                 color: "#0A0915",
                 letterSpacing: "-0.02em",
@@ -207,7 +207,7 @@ export default function LeadCaptureFormDialog({ open, onClose, formType }) {
                 whiteSpace: { xs: "normal", sm: "nowrap" },
               }}
             >
-              Reserve Your Webinar Spot
+              Enroll Now for CLAT PG 2027 Mock Test
               <Typography
                 component="span"
                 display="block"

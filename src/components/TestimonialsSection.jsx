@@ -1,39 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { Box, Typography, Button } from "@mui/material"
 import { motion, AnimatePresence } from "framer-motion"
-import NorthEastIcon from "@mui/icons-material/NorthEast"
 import { withBasePath } from "../basePath"
-
-const testimonialCtaArrowIconSx = {
-    fontSize: 18,
-    transition: "transform 0.25s ease",
-}
-
-const testimonialCtaButtonSx = {
-    backgroundColor: "rgb(10, 10, 10)",
-    borderRadius: "999px",
-    border: "2px solid #fff",
-    color: "#ffffff",
-    cursor: "pointer",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    gap: "4px",
-    padding: "12px 20px",
-    fontSize: "16px",
-    fontWeight: 500,
-    textTransform: "none",
-    lineHeight: "1.8em",
-    transition: "background-color 0.25s ease, color 0.25s ease",
-    "&:hover": {
-        bgcolor: "#f2ae41",
-        color: "#ffffff",
-        borderColor: "#f2ae41",
-        "& .MuiButton-endIcon .MuiSvgIcon-root": {
-            transform: "rotate(45deg)",
-        },
-    },
-}
 
 const testimonialsData = [
     {
@@ -125,24 +93,7 @@ export default function TestimonialsSection() {
                             completed courses on 12 Minutes to CLAT
                         </Typography>
 
-                        {/* CTA Button with 131px margin */}
-                        <Button
-                            component="a"
-                            href="https://12minutestoclat.com/new-courses/170"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            variant="contained"
-                            disableElevation
-                            endIcon={<NorthEastIcon sx={{ ...testimonialCtaArrowIconSx, color: "#fff", fontWeight: 500 }} />}
-                            sx={{
-                                mt: "30px",
-                                width: "181.4px",
-                                height: "52.8px",
-                                ...testimonialCtaButtonSx,
-                            }}
-                        >
-                            View Course
-                        </Button>
+
                     </Box>
                 </motion.div>
 
