@@ -46,40 +46,9 @@ const testimonialsData = [
     }
 ]
 
-const ChevronRight = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style={{ width: '100%', height: '100%', fill: 'currentColor' }}>
-        <path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z" />
-    </svg>
-)
-
-const ChevronLeft = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" style={{ width: '100%', height: '100%', fill: 'currentColor' }}>
-        <path d="M169.4 297.4C156.9 309.9 156.9 330.2 169.4 342.7L361.4 534.7C373.9 547.2 394.2 547.2 406.7 534.7C419.2 522.2 419.2 501.9 406.7 489.4L237.3 320L406.6 150.6C419.1 138.1 419.1 117.8 406.6 105.3C394.1 92.8 373.8 92.8 361.3 105.3L169.3 297.3z" />
-    </svg>
-)
 
 export default function TestimonialsSection() {
-    const [currentIndex, setCurrentIndex] = useState(0)
-    const [isAutoPlaying, setIsAutoPlaying] = useState(true)
-    const currentTestimonial = testimonialsData[currentIndex] || testimonialsData[0]
-
-    const handleNext = React.useCallback(() => {
-        setCurrentIndex((prev) => (prev + 1) % testimonialsData.length)
-    }, [])
-
-    const handlePrev = React.useCallback(() => {
-        setCurrentIndex((prev) => (prev - 1 + testimonialsData.length) % testimonialsData.length)
-    }, [])
-
-    useEffect(() => {
-        let interval
-        if (isAutoPlaying) {
-            interval = setInterval(() => {
-                handleNext()
-            }, 5000)
-        }
-        return () => clearInterval(interval)
-    }, [isAutoPlaying, handleNext])
+    const currentTestimonial = testimonialsData[0]
 
     return (
         <Box
@@ -187,88 +156,8 @@ export default function TestimonialsSection() {
                         alignItems: "center",
                     }}
                 >
-                    {/* Navigation Buttons (Now inside the card area) */}
+                    {/* The Dark Testimonial Card */}
                     <Box
-                        onClick={handlePrev}
-                        sx={{
-                            position: "absolute",
-                            left: -58,
-                            zIndex: 20,
-                            width: 48,
-                            height: 48,
-                            bgcolor: "#fff",
-                            border: "1px solid #eee",
-                            borderRadius: "50%",
-                            display: { xs: "none", md: "flex" },
-                            alignItems: "center",
-                            justifyContent: "center",
-                            cursor: "pointer",
-                            color: "#000",
-                            boxShadow: "0 4px 12px rgba(0,0,0,0.05)",
-                            transition: "all 0.3s ease",
-                            "&:hover": { bgcolor: "#f8f8f8", scale: 1.1, boxShadow: "0 6px 16px rgba(0,0,0,0.1)" },
-                        }}
-                    >
-                        <Box sx={{ width: 24, height: 24 }}><ChevronLeft /></Box>
-                    </Box>
-
-                    <Box
-                        onClick={handleNext}
-                        sx={{
-                            position: "absolute",
-                            right: -58,
-                            zIndex: 20,
-                            width: 48,
-                            height: 48,
-                            bgcolor: "#fff",
-                            border: "1px solid #eee",
-                            borderRadius: "50%",
-                            display: { xs: "none", md: "flex" },
-                            alignItems: "center",
-                            justifyContent: "center",
-                            cursor: "pointer",
-                            color: "#000",
-                            boxShadow: "0 4px 12px rgba(0,0,0,0.05)",
-                            transition: "all 0.3s ease",
-                            "&:hover": { bgcolor: "#f8f8f8", scale: 1.1, boxShadow: "0 6px 16px rgba(0,0,0,0.1)" },
-                        }}
-                    >
-                        <Box sx={{ width: 24, height: 24 }}><ChevronRight /></Box>
-                    </Box>
-
-                    {/* Pagination Dots */}
-                    <Box
-                        sx={{
-                            position: "absolute",
-                            bottom: 24,
-                            left: "50%",
-                            transform: "translateX(-50%)",
-                            zIndex: 30,
-                            display: "flex",
-                            gap: 1.5,
-                        }}
-                    >
-                        {testimonialsData.map((_, idx) => (
-                            <Box
-                                key={idx}
-                                onClick={() => setCurrentIndex(idx)}
-                                sx={{
-                                    width: 10,
-                                    height: 10,
-                                    borderRadius: "50%",
-                                    bgcolor: idx === currentIndex ? "#fff" : "rgba(255,255,255,0.3)",
-                                    cursor: "pointer",
-                                    transition: "all 0.3s ease",
-                                    "&:hover": { scale: 1.2, bgcolor: "#fff" }
-                                }}
-                            />
-                        ))}
-                    </Box>
-
-                    {/* The Dark Testimonial Card Slider Wrapper */}
-                    <Box
-                        onMouseEnter={() => setIsAutoPlaying(false)}
-                        onMouseLeave={() => setIsAutoPlaying(true)}
                         sx={{
                             backgroundColor: "rgb(10, 10, 10)",
                             width: "100%",
@@ -282,12 +171,9 @@ export default function TestimonialsSection() {
                             cursor: "pointer"
                         }}
                     >
-                        <AnimatePresence mode="wait">
                             <motion.div
-                                key={currentIndex}
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
-                                exit={{ opacity: 0 }}
                                 transition={{ duration: 0.5, ease: "easeInOut" }}
                                 style={{ width: "100%" }}
                             >
@@ -375,7 +261,6 @@ export default function TestimonialsSection() {
                                     </Box>
                                 </Box>
                             </motion.div>
-                        </AnimatePresence>
                     </Box>
                 </Box>
             </Box>
