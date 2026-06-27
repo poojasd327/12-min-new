@@ -25,7 +25,7 @@ export default function Page() {
       setIsLeadFormOpen(true);
     }, 10000); // 10 seconds
 
-    return () => clearTimeout(timer);                                              
+    return () => clearTimeout(timer);
   }, []);
 
   const navItems = [
@@ -51,7 +51,7 @@ export default function Page() {
     <>
       <Head>
         <title>CLAT PG 2027 All India Mock Test | Register Now</title>
-        <meta name="description" content="Learn CLAT prep from NLU grads. Join our free 7-month strategy session." />
+        <meta name="description" content="Take the CLAT PG Mock Test & Win Up to 100% Scholarship" />
       </Head>
       <SmoothScroll>
         <Header navItems={navItems} onNavClick={handleNavClick} onOpenLeadForm={handleRegisterClick} />

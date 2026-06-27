@@ -204,7 +204,7 @@ function HeroSection({ onRegisterClick }) {
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
             spacing={2}
-            sx={{ alignItems: { xs: 'flex-start', md: 'flex-start' }, width: { xs: '100%', sm: 'auto' } }}
+            sx={{ mt: { xs: '450px', md: 0 }, alignItems: { xs: 'flex-start', md: 'flex-start' }, width: { xs: '100%', sm: 'auto' } }}
           >
             <RegisterButton
               id="hero_register_btn"
