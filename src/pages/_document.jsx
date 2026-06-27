@@ -21,6 +21,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>`
         }} />
         <Main />
         <NextScript />
+        <script type="text/javascript" src="https://wa-widget.emovur.com/widget.js" widget-id="adb92545-65d3-47cb-8dc8-198ec04c98d3"></script>
       </body>
     </Html>
   )
